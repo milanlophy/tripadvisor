@@ -7,7 +7,7 @@
       Tripadvisor: Over a billion reviews &contributions for Hotels,
       Attractions, ...
     </title>
-    <link rel="stylesheet" href="tripadvisor.css" />
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
     <div class="header">
@@ -23,7 +23,7 @@
           <button class="more">More</button>
         </div>
       </div>
-      <div class="profile"><img src="img/person.svg" alt="" /></div>
+      <div class="profile"><img src="img/person.svg" alt /></div>
       <div class="sgn_in">
         <div class="globe">
           <img src="img/globe.svg" alt="globe" />
@@ -37,12 +37,12 @@
     <div class="wrap">
       <div class="scrolltxt">
         <div class="srchall">
-      
-            <button class="b1">
-              <span class="search_all">
-              <img src="img/searchall.svg" alt="Search all" /><span class="text">Search All</span>
-            </button>
-          </span>
+          <button>
+            <span class="search_all">
+              <img src="img/searchall.svg" alt="Search all" />
+              Search All
+            </span>
+          </button>
         </div>
         <div class="hotels">
           <button><img src="img/hotels.svg" alt="hotels" />Hotels</button>
@@ -68,14 +68,17 @@
 
     <div class="inputbar">
       <div class="bartop">
-        <div class="search_icon"><img src="img/search.svg" alt="" /></div>
-        <input
+        <div class="bartop_icon"><img src="img/search.svg" alt
+            class="search_icon" /></div>
+        <input class="mobileview"
           type="text"
-          placeholder="Places to go, things to do, hotels..."
-        />
+          placeholder="Places to go, things to do,..." />
+        <input class="desktopview"
+          type="text"
+          placeholder="Places to go, things to do, hotels..." />
       </div>
       <div class="division_line"></div>
-      <button class="srch_bton">Search</button>
+      <button class="search_bton">Search</button>
     </div>
   </body>
 </html>
