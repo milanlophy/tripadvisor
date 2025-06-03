@@ -267,31 +267,16 @@ body {
 
 @media screen and (min-width: 375px){
   .caption{
-    position: relative;
-    width: 375.2px;
+    width: 100%;
     height: 500px;
   }
   .banner_text{
-    top: 116px;
-    margin-top: 17px;
-  }
-  .yellow_owl{
-    top: -69px;
-  }
-  .owlimg{
-    top: -68px;
-  }
-  .owl_txt{
-    top: -40px;
-  }
-  .banner_bton{
-    margin-top: 16.5px;
+    top: 135px;
   }
 }
 @media screen and (min-width: 425px){
   .caption{
-    width: 425.6px;
-    height: 500px;
+    width: 100%;
   }
 }
 @media screen and (min-width: 768px) {
