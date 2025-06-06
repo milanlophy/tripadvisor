@@ -246,7 +246,7 @@ body {
   min-height: 250.13px;
 }
 .banner_text {
-  padding-top: 3px;
+  padding-top: 30px;
 
 }
 .banner h1,p {
@@ -267,7 +267,7 @@ body {
   font-family: "bold";
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 20px;
   margin-bottom: 8px;
 }
 .banner_bton {
@@ -300,7 +300,7 @@ body {
   margin-bottom: 64px;
 }
 .content1_txt{
-  margin: 32px 16px 16px 0px;
+  margin: 64px 16px 16px 0px;
 }
 .content1_title {
   font-family: 'bold';
@@ -326,10 +326,9 @@ body {
 }
 .scroll_img_bar1 img{
   display: block;
-  min-width: 178.66px;
-  width: 100%;
-  min-height: 178.66px;
-  height: 100%;
+  min-width: 215.46px;
+  width: 100%; 
+  min-height: 215.46px;
   object-fit: cover;
   object-position: center center;
   border-radius: 8px;
@@ -376,7 +375,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  bottom: 20%;
+  bottom: 25%;
   right: 0;
   background: #fff;
   height: 40px;
@@ -386,7 +385,6 @@ body {
   font-weight: 400;
   border-radius: 100px;
   border: 1.5px solid #000;
-  padding: 6px;
   cursor: pointer;
 }
 /* .img_bar1 .section1_img1 img{
@@ -456,9 +454,9 @@ body {
     object-position: center center;
   } */
   .banner_text {
-    top: 178px;
+    /* top: 178px; */
   }
-  .yellow_owl {
+  /* .yellow_owl {
     top: -131px;
   }
   .owlimg {
@@ -466,7 +464,7 @@ body {
   }
   .owl_txt {
     top: -101px;
-  }
+  } */
   .scroll_img_bar1 img{
     min-width: 249.06px;
   }
@@ -628,9 +626,9 @@ body {
     width: 15%;
     margin: 0px;
   }
-  .caption{
+  /* .caption{
     margin-top: 24.8px;
-  }
+  } */
   /* .caption,.caption425 {
     display: none;
   }
