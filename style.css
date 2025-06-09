@@ -863,12 +863,8 @@ body {
     display: flex;
     background: #ff5d5d;
     border-radius: 8px;
-    margin: 64px 24px;
+    margin: 64.5px 24px;
     padding: 24px;
-    /* min-width: 976px;
-    width: 100%;
-    min-height: 458px; */
-
   }
   .news{
     display: none;
@@ -965,13 +961,19 @@ body {
   body {
     margin: 0px 128px;
   }
+  .banner{
+    max-width: 1136px;
+    max-height: 458px;
+  }
   .newbanner{
     min-width: 566.73px;
+    max-height: 410px;
   }
   .banner_title1024{
     font-size: 90px;
     line-height: 72px;
-
+    width: 90%;
+    margin: 38px 0px 0px 0px !important;
   }
   .scroll_img_bar1 img{
     min-width: 272px;
