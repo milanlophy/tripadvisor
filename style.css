@@ -592,6 +592,12 @@ body {
     padding: 16px 0;
     gap: 8px;
   }
+  .banner1024{
+    display: none;
+  }
+  .banner1024_txt{
+    display: none;
+  }
   .top_logo{
     display: flex;
     gap: 8px;
@@ -865,6 +871,9 @@ body {
     border-radius: 8px;
     margin: 64.5px 24px;
     padding: 24px;
+  }
+  .banner1024{
+    display: block;
   }
   .news{
     display: none;
